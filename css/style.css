@@ -1,0 +1,17 @@
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 1024px;
+  margin: auto;
+}
+
+.images > * {
+  margin: 1em;
+  border-radius: 7px;
+}
+
+h1 {
+  text-align: center;
+}
